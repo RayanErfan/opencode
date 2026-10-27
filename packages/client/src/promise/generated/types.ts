@@ -2232,8 +2232,6 @@ export type ConfigEntry =
         model?: string | { providerID: string; model: string; variant?: string }
         default_agent?: string
         update?: "disable" | "notify" | "auto"
-        share?: "manual" | "auto" | "disabled"
-        enterprise?: { url?: string }
         username?: string
         permissions?: PermissionRuleset
         policies?: Array<{
